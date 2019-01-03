@@ -1,0 +1,28 @@
+Last login: Thu Jan  3 10:57:05 on console
+You have new mail.
+deepeshs-MacBook-Air:~ deepesh$ cd Desktop
+deepeshs-MacBook-Air:Desktop deepesh$ ls
+Internship	ML		opencv
+deepeshs-MacBook-Air:Desktop deepesh$ mkdir django
+deepeshs-MacBook-Air:Desktop deepesh$ cd django
+deepeshs-MacBook-Air:django deepesh$ python3 -m venv LearningEnv
+deepeshs-MacBook-Air:django deepesh$ source LearningEnv/bin/activate
+(LearningEnv) deepeshs-MacBook-Air:django deepesh$ python -m pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/c2/d7/90f34cb0d83a6c5631cf71dfe64cc1054598c843a92b400e55675cc2ac37/pip-18.1-py2.py3-none-any.whl (1.3MB)
+    100% |████████████████████████████████| 1.3MB 296kB/s 
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-18.1
+(LearningEnv) deepeshs-MacBook-Air:django deepesh$ pip install -r requirements.txt
+Collecting Django~=2.0.6 (from -r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/6c/9d/c0feec696b815708354a2fd06ae0f51330a15043822a29bc8be2f185d9fe/Django-2.0.9-py3-none-any.whl (7.1MB)
+    100% |████████████████████████████████| 7.1MB 447kB/s 
+Collecting pytz (from Django~=2.0.6->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/f8/0e/2365ddc010afb3d79147f1dd544e5ee24bf4ece58ab99b16fbb465ce6dc0/pytz-2018.7-py2.py3-none-any.whl (506kB)
+    100% |████████████████████████████████| 512kB 778kB/s 
+Installing collected packages: pytz, Django
+Successfully installed Django-2.0.9 pytz-2018.7
+(LearningEnv) deepeshs-MacBook-Air:django deepesh$ 
